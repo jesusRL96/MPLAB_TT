@@ -1,0 +1,622 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"4 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X/lcd.h
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"26
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"35
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+"41
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"62
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"81
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"97
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"82 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _timer2 timer2 `II(v  1 e 1 0 ]
+"112
+[v _main main `(v  1 e 1 0 ]
+"291
+[v _ConfiguracionInicial ConfiguracionInicial `(v  1 e 1 0 ]
+"312
+[v _MotorPasos MotorPasos `(i  1 e 2 0 ]
+"369
+[v _MotorPasos_sensor MotorPasos_sensor `(i  1 e 2 0 ]
+"415
+[v _Medir Medir `(i  1 e 2 0 ]
+"437
+[v _Pesar Pesar `(i  1 e 2 0 ]
+"450
+[v _Desactiva Desactiva `(v  1 e 1 0 ]
+"456
+[v _MostrarCreditos MostrarCreditos `(v  1 e 1 0 ]
+"476
+[v _CreditosInsuf CreditosInsuf `(v  1 e 1 0 ]
+"494
+[v _Menu1 Menu1 `(v  1 e 1 0 ]
+"166 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S38 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S47 . 1 `S38 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES47  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S145 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S154 . 1 `S145 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES154  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S211 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"307
+[u S220 . 1 `S211 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES220  1 e 1 @7 ]
+[s S180 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369
+[u S189 . 1 `S180 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES189  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S87 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S95 . 1 `S87 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES95  1 e 1 @12 ]
+"657
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"664
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"671
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+[s S59 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"793
+[s S63 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S71 . 1 `S59 1 . 1 0 `S63 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES71  1 e 1 @18 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1245
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S271 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1276
+[s S276 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S285 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S288 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S291 . 1 `S271 1 . 1 0 `S276 1 . 1 0 `S285 1 . 1 0 `S288 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES291  1 e 1 @31 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S106 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1718
+[u S114 . 1 `S106 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES114  1 e 1 @140 ]
+[s S232 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1882
+[s S238 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S243 . 1 `S232 1 . 1 0 `S238 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES243  1 e 1 @143 ]
+"2041
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2970
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2977
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3896
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4040
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4118
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"4121
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"4133
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4136
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4139
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4190
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4376
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"4382
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"58 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _creditos creditos `f  1 e 4 0 ]
+"59
+[v _altura altura `i  1 e 2 0 ]
+[v _peso peso `i  1 e 2 0 ]
+"60
+[v _creditos_temp2 creditos_temp2 `i  1 e 2 0 ]
+"61
+[v _creditos_temp creditos_temp `i  1 e 2 0 ]
+"62
+[v _dato_c dato_c `[20]uc  1 e 20 0 ]
+"81
+[v _angulo angulo `i  1 e 2 0 ]
+[v _alto_bajo alto_bajo `i  1 e 2 0 ]
+[v _parpadeo parpadeo `i  1 e 2 0 ]
+[v _alerta alerta `i  1 e 2 0 ]
+[v _auxiliar auxiliar `i  1 e 2 0 ]
+"112
+[v _main main `(v  1 e 1 0 ]
+{
+"219
+[v main@c c `i  1 a 2 12 ]
+"114
+[v main@motor_temp motor_temp `i  1 a 2 20 ]
+[v main@motorRecepcion motorRecepcion `i  1 a 2 18 ]
+"115
+[v main@aceptado aceptado `i  1 a 2 16 ]
+"114
+[v main@motorArroz motorArroz `i  1 a 2 14 ]
+"115
+[v main@peso_temp peso_temp `i  1 a 2 10 ]
+[v main@pet pet `i  1 a 2 8 ]
+"114
+[v main@motorBarritas motorBarritas `i  1 a 2 3 ]
+"289
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 16 ]
+[v ___flsub@b b `d  1 p 4 20 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 6 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 5 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 4 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 3 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"437 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _Pesar Pesar `(i  1 e 2 0 ]
+{
+"438
+[v Pesar@adc adc `i  1 a 2 7 ]
+"448
+} 0
+"369
+[v _MotorPasos_sensor MotorPasos_sensor `(i  1 e 2 0 ]
+{
+"374
+[v MotorPasos_sensor@i i `i  1 a 2 58 ]
+"370
+[v MotorPasos_sensor@n n `i  1 a 2 68 ]
+[v MotorPasos_sensor@tipo tipo `i  1 a 2 66 ]
+[v MotorPasos_sensor@paso paso `i  1 a 2 64 ]
+[v MotorPasos_sensor@medida_temp medida_temp `i  1 a 2 62 ]
+[v MotorPasos_sensor@medida medida `i  1 a 2 60 ]
+[v MotorPasos_sensor@sentido sentido `i  1 a 2 56 ]
+"369
+[v MotorPasos_sensor@motor_p motor_p `i  1 p 2 50 ]
+[v MotorPasos_sensor@pasos pasos `i  1 p 2 52 ]
+"414
+} 0
+"415
+[v _Medir Medir `(i  1 e 2 0 ]
+{
+"416
+[v Medir@medida medida `i  1 a 2 48 ]
+"436
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 3 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 4 ]
+"44
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 30 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 23 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 28 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 35 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 34 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 27 ]
+"8
+[v ___fldiv@a a `d  1 p 4 10 ]
+[v ___fldiv@b b `d  1 p 4 14 ]
+"185
+} 0
+"312 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _MotorPasos MotorPasos `(i  1 e 2 0 ]
+{
+"315
+[v MotorPasos@i i `i  1 a 2 12 ]
+"313
+[v MotorPasos@n n `i  1 a 2 16 ]
+[v MotorPasos@paso paso `i  1 a 2 14 ]
+"312
+[v MotorPasos@motor_p motor_p `i  1 p 2 0 ]
+[v MotorPasos@pasos pasos `i  1 p 2 2 ]
+[v MotorPasos@sentido sentido `i  1 p 2 4 ]
+[v MotorPasos@tipo tipo `i  1 p 2 6 ]
+[v MotorPasos@num num `i  1 p 2 8 ]
+[v MotorPasos@retardo retardo `i  1 p 2 10 ]
+"368
+} 0
+"494
+[v _Menu1 Menu1 `(v  1 e 1 0 ]
+{
+"521
+} 0
+"456
+[v _MostrarCreditos MostrarCreditos `(v  1 e 1 0 ]
+{
+"474
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+{
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@val val `i  1 p 2 12 ]
+[v itoa@base base `i  1 p 2 14 ]
+[v itoa@buf buf `*.4uc  1 a 1 18 ]
+"14
+} 0
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+{
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+"19
+[v utoa@v v `ui  1 a 2 8 ]
+"20
+[v utoa@c c `uc  1 a 1 10 ]
+"17
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+[v utoa@val val `ui  1 p 2 3 ]
+[v utoa@base base `i  1 p 2 5 ]
+"22
+[v utoa@buf buf `*.4uc  1 a 1 11 ]
+"37
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 8 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 3 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 5 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 1 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 3 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+"30
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 7 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 3 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 5 ]
+"53
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 8 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 7 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 36 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S795 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S800 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S803 . 4 `l 1 i 4 0 `d 1 f 4 0 `S795 1 fAsBytes 4 0 `S800 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S803  1 a 4 25 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 19 ]
+[s S872 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S875 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S872 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S875  1 a 2 29 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 24 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 23 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 18 ]
+"8
+[v ___flmul@b b `d  1 p 4 5 ]
+[v ___flmul@a a `d  1 p 4 9 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 3 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"62 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X/lcd.h
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"79
+} 0
+"450 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _Desactiva Desactiva `(v  1 e 1 0 ]
+{
+[v Desactiva@motor motor `i  1 p 2 3 ]
+"454
+} 0
+"476
+[v _CreditosInsuf CreditosInsuf `(v  1 e 1 0 ]
+{
+"492
+} 0
+"97 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X/lcd.h
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"99
+[v Lcd_Write_String@i i `i  1 a 2 5 ]
+"97
+[v Lcd_Write_String@a a `*.26uc  1 p 2 0 ]
+"102
+} 0
+"81
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"83
+[v Lcd_Write_Char@y y `uc  1 a 1 6 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 5 ]
+"81
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"84
+[v Lcd_Write_Char@a a `uc  1 a 1 7 ]
+"95
+} 0
+"41
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"43
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 5 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 4 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 3 ]
+"41
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 7 ]
+"44
+[v Lcd_Set_Cursor@a a `uc  1 a 1 2 ]
+"60
+} 0
+"35
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+{
+"39
+} 0
+"26
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"28
+[v Lcd_Cmd@a a `uc  1 a 1 6 ]
+"33
+} 0
+"4
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"6
+[v Lcd_Port@a a `uc  1 a 1 3 ]
+"25
+} 0
+"291 C:\Users\jesus\Documents\tareas\10mo\TT\TT_1.X\Codigo_TT2_01.c
+[v _ConfiguracionInicial ConfiguracionInicial `(v  1 e 1 0 ]
+{
+"308
+} 0
+"82
+[v _timer2 timer2 `II(v  1 e 1 0 ]
+{
+"110
+} 0
